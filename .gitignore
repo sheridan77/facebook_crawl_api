@@ -1,0 +1,14 @@
+.idea
+venv
+
+test.py
+__pycache__
+*.json
+*.html
+*.log
+
+build/
+dist/
+*.egg-info/
+.pypirc
+
