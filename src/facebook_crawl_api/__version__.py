@@ -1,4 +1,4 @@
-__title__ = 'facebook_api'
+__title__ = 'facebook_crawl_api'
 __description__ = 'facebook数据采集器'
 __url__ = 'https://github.com/sheridan77/facebook_crawl_api.git'
 __version__ = '1.1.0'

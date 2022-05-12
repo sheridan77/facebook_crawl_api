@@ -13,8 +13,8 @@ import logging
 import re
 
 from lxml import etree
-from facebook_crawl_api.core import BaseClient
-from facebook_crawl_api.model import UserInfo, Article, SearchResult
+from .core import BaseClient
+from .model import UserInfo, Article, SearchResult
 
 logger = logging.getLogger(__name__)
 

@@ -14,7 +14,7 @@ requires = ['requests>=2.27.1', 'lxml>=4.7.1']
 test_requirements = []
 # 读取about信息
 about = {}
-with open(os.path.join(here, 'facebook_crawl_api', '__version__.py'), 'r', 'utf-8') as f:
+with open(os.path.join('src', 'facebook_crawl_api', '__version__.py'), 'r', 'utf-8') as f:
     exec(f.read(), about)
 
 with open('README.md', 'r', 'utf-8') as f:
@@ -31,7 +31,7 @@ setup(
     url=about['__url__'],
     packages=packages,
     # package_data={'': ['LICENSE', 'NOTICE']},
-    package_dir={'facebook_crawl_api': 'facebook_crawl_api'},
+    package_dir={'': 'src'},
     include_package_data=True,
     python_requires=">=3.7.0",
     install_requires=requires,
